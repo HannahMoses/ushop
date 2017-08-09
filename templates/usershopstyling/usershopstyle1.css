@@ -1,0 +1,38 @@
+head {  text-align:left;
+	color:pink;
+	background-color:rgb(110,12,13);
+     }
+body {
+	color:rgb(180,12,100);
+background-color:rgb(102,24,4);
+	font-family:"Verdana";
+     }
+
+h1   {  text-align:center;
+        color:pink;
+     }
+h2   {  color:pink;
+        background-color:rgb(120,20,5);
+        text-align:left;
+
+     }
+p    { text-align:center;
+       font-size :30px;
+	   font-weight:bold;
+     }
+p1{ text-align:left;
+	color:pink;
+
+}
+div {
+    border: 2px solid black;
+    height:528px;
+    width: 598px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 1500px;
+    margin-left: 360px;
+    background-color:pink;
+    padding : 12px 15px 12px 15px;
+
+}

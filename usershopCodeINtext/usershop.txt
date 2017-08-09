@@ -1,0 +1,18 @@
+<!-- 6:56 PM 8/8/2017-->
+
+<! DOCTYPE html>
+<html>
+<head>
+	<title> My medicine store Jul19Wed2017</title>
+	<link rel="stylesheet" href="templates/myshopstyling/myshopstyle1.css">
+</head>
+<body>
+     <h1> WELCOME TO MEDICAL STORE</h1>
+     <img src="templates\myshopimages\myshopFront.jpg" alt="medstore photo"style=" height:328px;width: 598px;"><br>
+        </div>
+	<p> This is your choice store for purchasing medicines.</p>
+
+<!-- <a href="file:///C:/Users/cody/Downloads/Git/gitcode/LC101/LCmedshop/addList.html"><h2>Click here for fast access to your medical needs.</h2></a> -->
+<p><a href="file:///E:/1CodeBlocksJS/JavaScriptExperiments/experimentalInitial/userDataStorage/MrKyleTF2017Aug8Tue/usershop/usershopaddList.html"><h2>Click here for fast access to your medical needs.</h2></a></p>
+  </body>
+</html>

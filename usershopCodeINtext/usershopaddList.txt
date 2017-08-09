@@ -1,0 +1,41 @@
+<!--6:52 PM 8/8/2017*************************
+WHEN PG IS NOT REFRESHED ADDS NEW LIST TO OLD LIST-->
+<!-- 3:31 PM 7/28/2017 , 26Jul2017Tue 3:16 pm,2:46 PM 7/28/2017-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> This is where user updates his shopping list</title>
+<link rel="stylesheet" href="templates/myshopstyling/myshopstyle2.css">
+</head>
+<body>
+    <div id="slist" >My Shopping list.</div><br>
+    <p2 id="mylist"></p2>
+        <p1 id="addmedarr"></p1><br>
+    <p1 id="verticalist"></p1>
+    <script>
+    var medicalsupplies = [ " "];
+    var itemsIaddedNow = Array.from(medicalsupplies);
+    var mynewlist =["n"];
+//    mynewlist.push.apply(mynewlist,itemsIaddedNow);
+    function myFunction() {
+        var itemName = prompt("Please enter your items", "");
+        var newbee = itemName;
+        medicalsupplies.unshift(newbee);
+        document.getElementById("addmedarr").innerHTML = medicalsupplies;
+       }
+        function itemsdone(){
+            document.getElementById("newlist").innerHTML="The new list is :  ";
+            document.getElementById("done").innerHTML = medicalsupplies;
+        }
+    document.getElementById("mylist").innerHTML = medicalsupplies;
+    </script>
+<p>Do you want to add more items? </p>
+<button class="button" onclick="myFunction()">Add more items</button><br><br>
+<p id="newlist"></p>
+<p id="done"> </p>
+<button class="button" onclick="itemsdone()">No more items</button><br><br>
+<!--<p><h2><a href="file:///C:/Users/cody/Downloads/Git/myshop/templates/nomoreitems.html"><h2>No more items to add</h2></a></p>-->
+<p>To email your list, copy the above list and click below.</p><br>
+<p><h2><a href="https://www.google.com"><h2>Email my list</h2></a></p>
+</body>
+</html>
