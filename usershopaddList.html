@@ -12,9 +12,6 @@
     <p1 id="verticalist"></p1>
     <script>
     var medicalsupplies = [ " "];
-    var itemsIaddedNow = Array.from(medicalsupplies);
-    var mynewlist =["n"];
-//    mynewlist.push.apply(mynewlist,itemsIaddedNow);
     function myFunction() {
         var itemName = prompt("Please enter your items", "");
         var newbee = itemName;
@@ -25,15 +22,14 @@
             document.getElementById("newlist").innerHTML="The new list is :  ";
             document.getElementById("done").innerHTML = medicalsupplies;
         }
-//    document.getElementById("mylist").innerHTML = alert("my old list = "+localStorage.getItem(oldlist[n+1]));
     </script>
 <p>Do you want to add more items? </p>
 <button class="button" onclick="myFunction()">Add more items</button><br><br>
 <p id="newlist"></p>
 <p id="done"> </p>
 <button class="button" onclick="itemsdone()">No more items</button><br><br>
-<!--<p><h2><a href="file:///C:/Users/cody/Downloads/Git/myshop/templates/nomoreitems.html"><h2>No more items to add</h2></a></p>-->
 <p>To email your list, copy the above list and click below.</p><br>
 <p><h2><a href="https://www.google.com"><h2>Email my list</h2></a></p>
+<p><h2><a href="file:///C:/Users/cody/Downloads/Git/ushop/templates/olditems.html"><h2>View my previous list</a></h2></p>
 </body>
 </html>

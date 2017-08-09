@@ -1,0 +1,44 @@
+<!-- 3:57 PM 8/9/2017-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title> This is where user chooses what to do with the shopping lists</title>
+<link rel="stylesheet" href="usershopstyling\usershopstyle2.css">
+</head>
+<body>    <div id="slist" >My previous Shopping list.</div>
+    <p2 id="myPrevlist"></p2>
+    <script> var prevlist= [ "p "];
+    var newadditions =["n"];   //Array.from(medicalsupplies);
+    var mytotalist = prevlist.concat(newadditions);
+     function previouslist() {
+        document.getElementById("previouslist").innerHTML = "Your previous list is :";
+        document.getElementById("displaypreviouslist").innerHTML = prevlist;     }
+     function newlyadded() {
+    document.getElementById("listofnewlyaddeeditems").innerHTML = "List of newly added items is :";
+    document.getElementById("displaylistofnewlyaddeditems").innerHTML = newadditions;     }
+     function totalist() {
+    document.getElementById("totalist").innerHTML = "Your total list is :";
+    document.getElementById("displaytotalist").innerHTML = mytotalist;      }
+</script>
+<p>Do you want to view your previous list ? </p>
+<p id="previouslist"></p>
+<p id="displaypreviouslist"> </p>
+<button class="button" onclick="previouslist()">View my previous list</button>
+<p>To email your previous list, copy the previous list and click below.</p>
+<p><h2><a href="https://www.google.com"><h2>Email my previous list</h2></a></p>
+
+<p>Do you want to view your list of newly added items ? </p>
+<p id="listofnewlyaddeeditems"></p>
+<p id="displaylistofnewlyaddeditems"> </p>
+<button class="button" onclick="newlyadded()">View list of newly added items</button><br>
+<p>To email list of newly dded items, copy the list of newly added items and click below.</p>
+<p><h2><a href="https://www.google.com"><h2>Email list of newly added items</h2></a></p>
+
+<p>Do you want to view your total list ? </p>
+<p id="totalist"></p>
+<p id="displaytotalist"> </p>
+<button class="button" onclick="totalist()">view total list</button><br>
+<p>To email your total list, copy the total list and click below.</p>
+<p><h2><a href="https://www.google.com"><h2>Email my total list</h2></a></p>
+</body>
+</html>
